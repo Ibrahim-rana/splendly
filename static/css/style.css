@@ -174,6 +174,25 @@ a { color: inherit; text-decoration: none; }
     align-items: center;
 }
 
+.hero-legal {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.hero-legal a {
+    color: var(--ink-muted);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.hero-legal a:hover { color: var(--accent); }
+
+.hero-legal a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
 /* ------------------------------------------------------------------ */
 /* Mock card (hero visual)                                             */
 /* ------------------------------------------------------------------ */
